@@ -2,18 +2,18 @@
 
 I'm a solutions-focused **DevOps Engineer**, passionate about automating workflows and building scalable, secure cloud infrastructure. My expertise centers on creating resilient systems that support high-availability applications.
 
-#### What I’m working on:
+### What I’m working on:
 I specialize in **Kubernetes** for container management and **Terraform** for infrastructure-as-code (IaC), optimizing CI/CD pipelines to streamline software delivery.
 
-#### Skills & Tools:
+### Skills & Tools:
 - **Languages:** C++, Python, Java
 - **Infrastructure:** Kubernetes, Terraform, Docker
 - **Cloud:** AWS (multi-account setups, VPC design, IAM)
 - **Monitoring & Security:** Prometheus, Grafana, CI/CD security integration
 
-#### Currently:
+### Currently:
 As a **DevOps Engineer**, I collaborate with teams to improve automation and drive continuous improvement across cloud platforms.
 
-#### Let's Connect:
+### Let's Connect:
 - LinkedIn: [linkedin.com/burakhezerr](https://www.linkedin.com/burakhezerr)
 - Email: 25burak.hezer@gmail.com
