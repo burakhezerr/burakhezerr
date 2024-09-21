@@ -13,7 +13,3 @@ I specialize in **Kubernetes** for container management and **Terraform** for in
 
 ### Currently:
 As a **DevOps Engineer**, I collaborate with teams to improve automation and drive continuous improvement across cloud platforms.
-
-### Let's Connect:
-- LinkedIn: [linkedin.com/burakhezerr](https://www.linkedin.com/burakhezerr)
-- Email: 25burak.hezer@gmail.com
