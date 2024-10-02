@@ -12,4 +12,4 @@ I specialize in **Kubernetes** for container management and **Terraform** for in
 - **Monitoring & Security:** Prometheus, Grafana, CI/CD security integration
 
 ### Currently:
-As a **DevOps Engineer**, I collaborate with teams to improve automation and drive continuous improvement across cloud platforms.
+As a **DevOps Engineer**, I collaborate with my team to improve automation and drive continuous improvement across cloud platforms.
