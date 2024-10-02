@@ -7,8 +7,8 @@ I specialize in **Kubernetes** for container management and **Terraform** for in
 
 ### Skills & Tools:
 - **Languages:** C++, Python, Java
-- **Infrastructure:** Kubernetes, Terraform, Docker
-- **Cloud:** AWS (multi-account setups, VPC design, IAM)
+- **Infrastructure:** Kubernetes, Terraform, Docker, CloudFormation
+- **Cloud:** AWS (multi-account setups, VPC design, etc.)
 - **Monitoring & Security:** Prometheus, Grafana, CI/CD security integration
 
 ### Currently:
