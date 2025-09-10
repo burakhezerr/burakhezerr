@@ -6,7 +6,7 @@ I'm a solutions-focused **DevOps Engineer**, passionate about automating workflo
 I specialize in **Kubernetes** for container management and **Terraform** for infrastructure-as-code (IaC), optimizing CI/CD pipelines to streamline software delivery.
 
 ### Skills & Tools:
-- **Languages:** C++, Python, Java
+- **Languages:** Python, Java
 - **Infrastructure:** Kubernetes, Terraform, Docker, CloudFormation
 - **Cloud:** AWS (multi-account setups, VPC design, etc.)
 - **Monitoring & Security:** Prometheus, Grafana, CI/CD security integration
