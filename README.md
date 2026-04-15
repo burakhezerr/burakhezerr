@@ -1,6 +1,6 @@
 ### Hi, I'm Burak — DevOps Engineer
 
-I'm a **DevOps Engineer at Skyloop Cloud** with 3+ years of hands-on experience designing, implementing, and maintaining scalable and secure cloud infrastructure on AWS. I focus on automation, reliability, and building systems that teams can actually depend on.
+I'm a **DevOps Engineer at Skyloop Cloud** with 3+ years of experience designing, implementing, and maintaining scalable and secure cloud infrastructure on AWS. I work across the full infrastructure lifecycle — from provisioning to observability.
 
 Currently finishing my **Computer Engineering degree at Bahçeşehir University** (2026).
 
@@ -8,17 +8,27 @@ Currently finishing my **Computer Engineering degree at Bahçeşehir University*
 
 ### Cloud & Infrastructure
 
-- **AWS** — multi-account architecture, VPC networking, Kubernetes (EKS), Helm Charts, Terraform IaC, CloudFormation
-- **Containers & Orchestration** — Docker, Kubernetes
+- **AWS** — multi-account architecture, VPC & subnet design, EKS, ElastiCache Redis, ALB, WAF, Site-to-Site VPN, IAM, Fargate
+- **IaC** — Terraform (modular, multi-environment), CloudFormation
+- **Containers & Orchestration** — Kubernetes, Docker, Helm, Kustomize
 - **CI/CD** — GitHub Actions, AWS native services, BitBucket Runners
-- **Monitoring** — Grafana, Prometheus, distributed tracing, observability pipelines
+- **Log Aggregation** — FluentBit
+
+---
+
+### Observability Stack
+
+- **Metrics** — kube-prometheus-stack, VictoriaMetrics, Prometheus
+- **Logs** — VictoriaLogs, Grafana Loki
+- **Tracing** — OpenTelemetry, Grafana Tempo
+- **Dashboards** — Grafana (custom dashboards: HPA, nginx access logs, pod resources, API response codes/times, distributed traces)
 
 ---
 
 ### Languages & Tools
 
 - **Python**, **Java**
-- Terraform, Helm, Docker, Grafana
+- Terraform, Helm, Kustomize, Docker
 
 ---
 
