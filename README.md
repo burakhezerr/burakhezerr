@@ -1,15 +1,47 @@
-### Hi there! I'm Burak, a DevOps Engineer
+### Hi, I'm Burak — DevOps Engineer
 
-I'm a solutions-focused **DevOps Engineer**, passionate about automating workflows and building scalable, secure cloud infrastructure. My expertise centers on creating resilient systems that support high-availability applications.
+I'm a **DevOps Engineer at Skyloop Cloud** with 3+ years of hands-on experience designing, implementing, and maintaining scalable and secure cloud infrastructure on AWS. I focus on automation, reliability, and building systems that teams can actually depend on.
 
-### What I’m working on:
-I specialize in **Kubernetes** for container management and **Terraform** for infrastructure-as-code (IaC), optimizing CI/CD pipelines to streamline software delivery.
+Currently finishing my **Computer Engineering degree at Bahçeşehir University** (2026).
 
-### Skills & Tools:
-- **Languages:** Python, Java
-- **Infrastructure:** Kubernetes, Terraform, Docker, CloudFormation
-- **Cloud:** AWS (multi-account setups, VPC design, etc.)
-- **Monitoring & Security:** Prometheus, Grafana, CI/CD security integration
+---
 
-### Currently:
-As a **DevOps Engineer**, I work with my team to improve automation and drive continuous improvement across cloud platforms.
+### Cloud & Infrastructure
+
+- **AWS** — multi-account architecture, VPC networking, Kubernetes (EKS), Helm Charts, Terraform IaC, CloudFormation
+- **Containers & Orchestration** — Docker, Kubernetes
+- **CI/CD** — GitHub Actions, AWS native services, BitBucket Runners
+- **Monitoring** — Grafana, Prometheus, distributed tracing, observability pipelines
+
+---
+
+### Languages & Tools
+
+- **Python**, **Java**
+- Terraform, Helm, Docker, Grafana
+
+---
+
+### Engineering Practices
+
+- Clean Code & Architecture (SOLID, design patterns, maintainability)
+- Security — secure coding, secrets management, vulnerability prevention
+- Testing — unit/integration testing, TDD, code coverage
+- Observability — structured logging, distributed tracing, performance monitoring
+
+---
+
+### AWS Certifications
+
+| Certification | Valid Until |
+|---|---|
+| AWS Certified Solutions Architect – Professional | Dec 2028 |
+| AWS Certified DevOps Engineer – Professional | Aug 2027 |
+| AWS Certified Developer – Associate | Aug 2027 |
+| AWS Certified Cloud Practitioner | Dec 2028 |
+
+---
+
+### Connect
+
+- LinkedIn: [burakhezerr](https://www.linkedin.com/in/burakhezerr/)
