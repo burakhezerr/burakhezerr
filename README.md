@@ -1,6 +1,6 @@
-### Hi, I'm Burak — DevOps Tech Lead & Cloud Engineer
+### Hi, I'm Burak — DevOps Team Lead & Cloud Engineer
 
-I'm a **DevOps Tech Lead at Skyloop Cloud** with 3+ years of hands-on experience designing, automating, and operating scalable cloud-native infrastructure on AWS. I lead a team of five cloud engineers and have delivered cloud platform work across **100+ customer projects**, with a strong focus on automation, cost efficiency, and developer-enabling infrastructure.
+I'm a **DevOps Team Lead at Skyloop Cloud** with 3+ years of hands-on experience designing, automating, and operating scalable cloud-native infrastructure on AWS. I lead a team of five cloud engineers and have delivered cloud platform work across **100+ customer projects**, with a strong focus on automation, cost efficiency, and developer-enabling infrastructure.
 
 Graduated in **July 2026** from **Bahçeşehir University — Computer Engineering** (full scholarship, 2022–2026), spending the last three years working full time in DevOps alongside my studies.
 
