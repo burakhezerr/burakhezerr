@@ -1,57 +1,72 @@
-### Hi, I'm Burak — DevOps Team Lead & Cloud Engineer
+### Hi, I'm Burak — AI/DevOps Engineer
 
-I'm a **DevOps Team Lead at Skyloop Cloud** with 3+ years of hands-on experience designing, automating, and operating scalable cloud-native infrastructure on AWS. I lead a team of five cloud engineers and have delivered cloud platform work across **100+ customer projects**, with a strong focus on automation, cost efficiency, and developer-enabling infrastructure.
+I build and run cloud infrastructure, and I build the AI tooling that operates it. 3+ years of hands-on work on AWS, Kubernetes and Terraform, across **100+ customer projects**, from startups running their first workload to enterprises with multi-account, hybrid environments.
+
+Day to day this means Terraform and Kubernetes, production operations for platforms that see sudden traffic peaks, cost and security reviews with the remediation work that follows them, incident response with written root cause analysis, and MCP servers and agents that answer operational questions about live AWS accounts.
 
 Graduated in **July 2026** from **Bahçeşehir University — Computer Engineering** (full scholarship, 2022–2026), spending the last three years working full time in DevOps alongside my studies.
-
-Currently expanding into **AI-driven platform engineering** — Model Context Protocol (MCP), agentic workflows, and AI tooling integration across cloud infrastructure.
 
 Istanbul, Türkiye
 
 ---
 
+### AI & Agentic Engineering
+
+- **MCP servers** — built with Python and FastAPI: an AWS DevOps assistant that answers operations, cost and security questions against live accounts through read-only AWS APIs, plus MCP servers for Notion, email and chart generation. Deployed to Kubernetes like any other service.
+- **Agent quality** — evaluation harnesses that measure tool selection and answer accuracy across hundreds of questions, so an agent change can be compared instead of guessed at.
+- **Chat integration** — a Microsoft Bot Framework bridge that puts an agent in Microsoft Teams, so non-engineers can ask infrastructure questions without a console or a CLI.
+- **Agent-driven modernization** — AWS Transform (`atx`): custom transformation definitions run locally and in fleet mode on AWS Batch, for codebase analysis and Python, Java and Node.js version upgrades, with test runs before and after to verify what the agent changed.
+- **Automation** — Playwright in Lambda container images for browser automation and scraping workloads.
+
+---
+
 ### Cloud & Infrastructure
 
-- **AWS** — multi-account architecture, VPC & subnet design, EKS, EC2, Lambda, Route53, ElastiCache Redis, ALB/NLB, WAF, Transit Gateway, Site-to-Site & Client VPN, IAM/IRSA, Fargate, Secrets Manager
-- **IaC** — Terraform (modular, multi-environment, remote state), CloudFormation
-- **Containers & Orchestration** — Kubernetes, Docker, Helm, Kustomize (base/overlay), HPA, Cluster Autoscaler, Karpenter, RBAC
-- **CI/CD** — GitHub Actions, Bitbucket Pipelines (OIDC-based AWS auth, no long-lived keys), AWS native services
-- **Platform Tooling** — FluentBit, Telegraf, Stakater Reloader, Secrets Store CSI Driver, SonarQube
+- **AWS** — multi-account architecture, VPC & subnet design, EKS, ECS (Fargate and EC2 capacity providers), EC2, Lambda, API Gateway, Elastic Beanstalk, Route53, RDS & Aurora, DynamoDB, ElastiCache Redis, MSK, SQS/SNS/EventBridge, ALB/NLB, CloudFront, WAF, Transit Gateway, Site-to-Site & Client VPN, VPC endpoints, IAM/IRSA, Organizations & SCPs, Secrets Manager, KMS, Local Zones
+- **IaC** — Terraform (module design, multi-environment layouts, workspaces, remote state, `for_each`/`dynamic`/`templatefile`, preconditions that block an apply against the wrong environment, brownfield imports), CloudFormation
+- **Containers & Orchestration** — Kubernetes on EKS and on-prem (RKE2/Rancher, Longhorn), Docker, Helm, Kustomize (base/overlay), HPA, KEDA, Cluster Autoscaler, Karpenter, pod disruption budgets, graceful shutdown and preStop handling, resource requests/limits tuning, RBAC
+- **CI/CD** — GitHub Actions, Bitbucket Pipelines (OIDC-based AWS auth, no long-lived keys), AWS CodePipeline/CodeBuild/CodeDeploy with blue/green releases and automatic rollback, Argo CD, Jenkins
+- **Platform Tooling** — FluentBit, Telegraf, Stakater Reloader, Secrets Store CSI Driver, ExternalDNS, cert-manager, SonarQube
 
 ---
 
 ### Observability Stack
 
-- **Metrics** — kube-prometheus-stack, VictoriaMetrics, Prometheus, CloudWatch
-- **Logs** — VictoriaLogs, Grafana Loki, FluentBit
-- **Tracing** — OpenTelemetry, Grafana Tempo
-- **Dashboards & Alerting** — Grafana as code (HPA status, nginx access logs, pod resources, PHP-FPM metrics, API response codes/times, distributed traces) with custom alerting rules and notification policies
+- **Metrics** — kube-prometheus-stack, VictoriaMetrics, Prometheus, kube-state-metrics, node-exporter, CloudWatch
+- **Logs** — VictoriaLogs (LogsQL), Grafana Loki, FluentBit routing, CloudWatch Logs with retention policies
+- **Tracing** — OpenTelemetry Operator & Collector, Grafana Tempo
+- **Dashboards & Alerting** — Grafana as code (HPA status, nginx access logs, pod resources, PHP-FPM metrics, API response codes/times, distributed traces) with custom alerting rules and notification policies; auditing alert rules against live metrics so they actually fire when something breaks
+- **Load & performance testing** — k6 and JMeter, plus packet-level analysis when application symptoms and infrastructure metrics disagree
 
 ---
 
 ### Cost & Governance
 
-- Cost optimization with Cost Explorer & Budgets — EC2 right-sizing, S3 lifecycle policies, CloudWatch log retention limits
-- Reserved Instance and Savings Plan strategies, Spot for suitable workloads
+- Cost optimization with Cost Explorer & Budgets — EC2 and container right-sizing from real utilization data, S3 lifecycle policies, CloudWatch log retention limits, releasing idle public IPv4 addresses, consolidating load balancers and NAT gateways, scheduling non-production environments to scale to zero outside working hours
+- Reserved Instance and Savings Plan strategies, Spot for suitable workloads, Fargate vs EC2 comparisons backed by pricing models
 - Multi-account tagging strategies for chargeback and per-team / per-project visibility
 - AWS Organizations and Service Control Policies (SCPs) for compliance and cost guardrails
+- AWS Well-Architected Reviews, account reviews and cloud security posture assessments, each delivered with a prioritized remediation plan
+- Data residency work under KVKK/GDPR, including hybrid designs around what a region or Local Zone actually supports
 
 ---
 
 ### Languages & Tools
 
-- **Python**, **Java**, **Bash**
-- Terraform, Helm, Kustomize, Docker, Git
+- **Python**, **Bash**, **SQL**
+- Terraform, Helm, Kustomize, Docker, Git, Linux
+- FastAPI for small internal services and MCP servers
 
 ---
 
 ### Engineering Practices
 
-- Clean Code & Architecture (SOLID, design patterns, maintainability)
-- Security — secure coding, secrets management, least-privilege IAM, vulnerability prevention
-- Testing — unit/integration testing, TDD, code coverage, load & performance testing
-- Observability — structured logging, distributed tracing, performance monitoring
-- Team enablement — code reviews, architectural guidance, incident response runbooks
+- Security — least-privilege IAM, keyless CI with OIDC, IRSA for pods, secrets from Secrets Manager rather than repositories or CI variables, WAF as code
+- Reliability — incident response, root cause analysis and written RCAs, runbooks for rare but risky operations, capacity reports after major traffic events
+- Automation first — if an incident does not end in an alert, a runbook or a piece of automation, it will happen again
+- Testing — unit and integration testing, load and performance testing before traffic peaks rather than after
+- Observability — structured logging, distributed tracing, dashboards and alerts kept in version control
+- Documentation — architecture notes, platform guides and operations runbooks written so someone else can run the system
 
 ---
 
